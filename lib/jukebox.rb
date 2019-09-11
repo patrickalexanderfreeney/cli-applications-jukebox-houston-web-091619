@@ -49,9 +49,8 @@ end
 
 def run(songs)
     puts "Please enter a command:"
-    help
-  
     input = gets.downcase.strip
+    
     case input
     when 'list'
       list(songs)
