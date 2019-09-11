@@ -70,8 +70,6 @@ def run(songs)
       help
     end
   end
-end
-end
 
    run(songs)
 end
