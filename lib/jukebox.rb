@@ -21,7 +21,6 @@ def help
 end 
 
 def play(songs)
-  
   puts "Please enter a song name or number:"
   input = gets.strip
   number = input.to_i - 1
@@ -49,7 +48,7 @@ def exit_jukebox
 end
 
 def run(songs)
-    
+    puts "Please enter a command:"
     help
   
     input = gets.downcase.strip
